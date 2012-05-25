@@ -309,7 +309,7 @@ They cover everything what you see on first three steps of the demo.
   top:20px;
   margin-right:00px;
   position:absolute;
-background : url("/atoslogo.png");
+background : url("../atoslogo.png");
 background-repeat:no-repeat;
 background-size:contain;
 height:50px;
