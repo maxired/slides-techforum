@@ -183,8 +183,28 @@ http://html5slides.googlecode.com/svn/trunk/styles.css
 
 ;)
 
+
+
 They cover everything what you see on first three steps of the demo.
  */
+#step-1{
+  background-color: transparent;
+  border:0px !important;   
+  box-shadow:none;
+}
+#step-1 .content, #step-1 .footer, #step-1 .title .smallline ,#step-1 .title .left ,#step-1 .title .right .line {
+display:none;
+
+}
+#step-1 .absoluted{
+-webkit-transform:scale(3,3);
+-moz-transform:scale(3,3);
+transform:scale(3,3);
+}
+
+#step-1 .logo{
+ position: absolute;
+}
 .slide {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -251,21 +271,31 @@ They cover everything what you see on first three steps of the demo.
 
 .rotate-small{
   -webkit-transform:rotate(-2deg);
+  -moz-transform:rotate(-2deg);
+  transform:rotate(-2deg);
 }
 
 .rotate-medium{
   -webkit-transform:rotate(-4deg);
+  -moz-transform:rotate(-4deg);
+  transform:rotate(-4deg);
 }
 .rotate-3{
   -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  transform:rotate(-3deg);
 }
 
 .rotate-right{
   -webkit-transform:rotate(6deg);
+  -moz-transform:rotate(6deg);
+  transform:rotate(6deg);
 }
 .logo{
   position:relative;
   -webkit-transform:scale(0.6,0.6);
+  -moz-transform:scale(0.6,0.6);
+  transform:scale(0.6,0.6);
   top:8px;
   left:0px;
 }
@@ -282,6 +312,8 @@ They cover everything what you see on first three steps of the demo.
 .slide a {
   color:rgb(93,57,150);
 }
+
+
 .slide li::before{
   color:rgb(93,57,150);
   content : "\25BA";
@@ -336,7 +368,9 @@ top:15px;
   font-weight:bolder;
 }
 .stretch2y{
-  -webkit-transform:scaleY(1.3);;
+  -webkit-transform:scaleY(1.3);
+  -moz-transform:scaleY(1.3);
+  transform:scaleY(1.3);
 }
 /*
 And now we start to style each step separately.

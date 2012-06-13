@@ -25,6 +25,9 @@ $(function(){
 
 var presTitle = {main:"Responsive Web Design", sub:"A Business and technical Approach"};
 
+var intro = new Slide({title:{main:"",sub:""}, data:{"scale-z":100}});
+slides.push(intro);
+
 slides.push(new Slide({
   title:presTitle, content:" \
   <ul> \
@@ -53,7 +56,7 @@ slides.push(new Slide({
 
 
 slides.push(new Slide({title:presTitle, content:
-                      "<ul><li>Web Developpment is a Journey<br/> With Mutliple Directions</li>"+
+                      "<ul><li>Web Development is a Journey<br/> With Multiple Directions</li>"+
                       "<li>Both Short term and Long term Vision</li>"+
                       "<li style='margin-top:60px;left:640px;position:absolute;' >And much more"+
                       "<ul><li>Lots Of Buzzwords</li><li>Humor !</li><li>Advices</li><li>and a bit of Culture</li></ul></li></ul>"+
