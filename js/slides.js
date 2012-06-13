@@ -32,13 +32,13 @@ slides.push(new Slide({
   <li>Software Developer \
   <ul> \
   <li>Prospective and Emerging ProjectS / Business Marketing Strategy / France</li> \
-  <li>@Atos since 2010 - Task Forme Mobility - <a href='smartdata.io'> smartdata.io</a></li> \
+  <li>@Atos since 2010 - Task Force Mobility - <a href='smartdata.io'> smartdata.io</a></li> \
   </ul> \
   </li> \
   <li>Context of the presentation\
   <ul> \
   <li> About Transforming our web development</li> \
-  <li> Share experiences acquirend through developements and Call for Bibs</a></li> \
+  <li> Share experiences acquired through developements and Call for Bibs</a></li> \
   <li> Feedbacks, advices and Open Discussion \
   <ul> \
   <li>BizDevs, Devs, Newbies ?  Come and Learn !</li> \
